@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://bsne.ch/files/live/sites/iheid/files/backgrounds/Admissions-gris.jpg");
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+  }
+  
+  h1 {
+    text-align: center;
+    grid-column: 1 / span 2;
+    margin: 0px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #0c011f; 
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #011606;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #36363b; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #submittedData {
+    margin-top: 20px;
+    border: 1px solid #ccc; 
+    padding: 10px;
+    grid-column: 2;
+    height: 80%;
+  }
